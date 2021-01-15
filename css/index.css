@@ -28,6 +28,24 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+header {
+    padding: 20px 0;
+}
+.navbar{
+    display: inline-block;
+    width: 78%;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+.banner {
+    padding: inherit;
+}
 body {
 	line-height: 1;
 }
@@ -48,7 +66,7 @@ table {
 }
 
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 html, body {
