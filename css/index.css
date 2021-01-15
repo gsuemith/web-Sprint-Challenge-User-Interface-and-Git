@@ -28,6 +28,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 header {
     padding: 20px 0;
 }
@@ -38,10 +42,6 @@ header {
 nav {
     display: flex;
     justify-content: space-evenly;
-}
-nav a {
-    text-decoration: none;
-    color: black;
 }
 .banner {
     padding: inherit;
