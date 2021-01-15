@@ -37,7 +37,7 @@ a{
     cursor: pointer;
 }
 header {
-    padding: 25px 0 10px;
+    padding: 22px 0 10px;
 }
 /*Sets navigation bar to the right of logo*/
 .navbar{
@@ -166,6 +166,7 @@ p {
 }
 /* most of my added css starts here pt 2*/
 .about-content {
+    padding: 0 1em;
     padding-bottom: 1em;
     border-bottom: dashed black 1px;
 }
@@ -197,6 +198,9 @@ a.learn:hover {
     background: black;
     color: white;
     box-shadow: 3px 3px 3px black;
+}
+.work {
+    border: none;
 }
 /* end sprint challenge css pt2*/
 
