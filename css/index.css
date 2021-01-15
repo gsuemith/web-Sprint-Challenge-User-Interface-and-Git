@@ -28,6 +28,8 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+
 /* sprint challenge css pt 1*/
 a{
     text-decoration: none;
@@ -50,6 +52,9 @@ nav {
     padding: inherit;
 }
 /* end pt 1 add css*/
+
+
+
 body {
 	line-height: 1;
 }
@@ -146,6 +151,7 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+
 }
 /* most of my added css starts here pt 2*/
 .about-content {
@@ -174,6 +180,12 @@ a.learn {
     width: 130px;
     text-align: center;
     padding: 3% 0;
+    transition: .3s;
+}
+a.learn:hover {
+    background: black;
+    color: white;
+    box-shadow: 3px 3px 3px black;
 }
 /* end sprint challenge css pt2*/
 
